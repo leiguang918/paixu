@@ -1,11 +1,15 @@
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class ChaRu {
     public static void main(String[] args) {
+        System.out.println("ll");
         int[] arr = {4,6,2,10,8};
         InsertSort(arr,arr.length);
         for(int i:arr){
             System.out.print(i+" ");
         }
     }
+
 
     //插入排序(最好结果是n,最坏情况是n*n)
     static void InsertSort(int[] arr,int len)

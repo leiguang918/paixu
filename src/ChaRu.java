@@ -6,7 +6,7 @@ public class ChaRu {
         int[] arr = {4,6,2,10,8};
         InsertSort(arr,arr.length);
         System.out.println("test1");
-        System.out.println("test2");
+        System.out.println("test3");
         for(int i:arr){
             System.out.print(i+" ");
         }

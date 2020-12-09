@@ -11,6 +11,7 @@ public class ChaRu {
         for(int i:arr){
             System.out.print(i+" ");
         }
+        System.out.println(4);
     }
 
 

@@ -5,10 +5,12 @@ public class ChaRu {
         System.out.println("ll");
         int[] arr = {4,6,2,10,8};
         InsertSort(arr,arr.length);
+        System.out.println("test1");
         for(int i:arr){
             System.out.print(i+" ");
         }
     }
+
 
 
     //插入排序(最好结果是n,最坏情况是n*n)

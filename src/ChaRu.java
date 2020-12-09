@@ -4,8 +4,9 @@ public class ChaRu {
     public static void main(String[] args) {
         System.out.println("ll");
         int[] arr = {4,6,2,10,8};
-        
+
         InsertSort(arr,arr.length);
+        System.out.println(0);
         System.out.println("test1");
         for(int i:arr){
             System.out.print(i+" ");
